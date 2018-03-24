@@ -33,11 +33,11 @@ export default class Card extends PureComponent {
 		return (
 			<div className="uk-card uk-card-default uk-card-body uk-width-1-1@m margin-top-5 custom-card">
 				<h3 className="uk-card-title">
-					{asker} :&nbsp;
+					{asker}
+					<br />
 					<em>{title}</em>&nbsp;
 					<button uk-icon="arrow-up" onClick={this.upvote} />&nbsp;
-					<button uk-icon="arrow-down" onClick={this.downvote} />&nbsp; <span uk-icon="arrow-right" />
-					&nbsp;{this.state.data.vote != null ? this.state.data.vote : vote}
+					<button uk-icon="arrow-down" onClick={this.downvote} />&nbsp; : &nbsp;{this.state.data.vote != null ? this.state.data.vote : vote}
 				</h3>
 				<p>{description}</p>
 			</div>
