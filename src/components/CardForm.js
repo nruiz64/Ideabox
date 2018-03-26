@@ -1,5 +1,5 @@
 import React, { PureComponent } from 'react';
-import { api } from '../constant.json';
+
 export default class CardForm extends PureComponent {
 	state = { asker: '', title: '', description: '' };
 

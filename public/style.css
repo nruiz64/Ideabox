@@ -1,11 +1,15 @@
 .margin-top-5 {
-	margin-top: 5%;
+  margin-top: 5%;
 }
 
 html {
-	background-color: #eff6fd;
+  background-color: #eff6fd;
 }
 
 .custom-card {
-	background-color: white;
+  background-color: white;
+}
+
+.white {
+  color: white;
 }
